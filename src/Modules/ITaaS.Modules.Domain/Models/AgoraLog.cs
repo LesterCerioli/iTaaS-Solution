@@ -1,12 +1,11 @@
-using NetDevPack.Domain;
+
 
 namespace ITaaS.Modules.Domain.Models
 {
     public class AgoraLog : Entity, IAggregateRoot
     {
-        public AgoraLog(Guid id, string? provider, string? httpMethod, int? httpStatusCode, string? uriPath, double timeTaken, int? responseSize, string? cacheStatus)
+        public AgoraLog(string? provider, string? httpMethod, int? httpStatusCode, string? uriPath, double timeTaken, int? responseSize, string? cacheStatus)
         {
-            Id = id;
             Provider = provider;
             HttpMethod = httpMethod;
             HttpStatusCode = httpStatusCode;
