@@ -1,3 +1,6 @@
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
 namespace ITaaS.Infrastructure.CrossCutting
 {
     public static class JsonSerializerSettingsGlobalConfig

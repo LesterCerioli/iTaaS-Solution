@@ -1,5 +1,7 @@
 
 
+using NetDevPack.Domain;
+
 namespace ITaaS.Modules.Domain.Models
 {
     public class AgoraLog : Entity, IAggregateRoot

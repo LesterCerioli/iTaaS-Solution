@@ -1,3 +1,5 @@
+using Microsoft.Extensions.DependencyInjection;
+
 namespace ITaaS.Infrastructure.CrossCutting.ConfigurationSettings
 {
     public static class ConfigurationManager

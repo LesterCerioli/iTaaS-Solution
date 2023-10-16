@@ -1,3 +1,8 @@
+using ITaaS.Infrastructure.Context;
+using ITaaS.Modules.Application.Services.Contracts;
+using ITaaS.Modules.Domain.Contracts;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace ITaaS.Infrastructure.CrossCutting
 {
     public class NativeInjectorBootStrapper
@@ -5,11 +10,11 @@ namespace ITaaS.Infrastructure.CrossCutting
         public static void RegisterServices(IServiceCollection services)
         {
             // Infrastructure
-            services.AddScoped<IPacienteRepository>();
-            services.AddScoped<AchePacientesContext>();
+            services.AddScoped<IAggraLogRepository>();
+            services.AddScoped<ITaaSDbContext>();
 
             // Application
-            services.AddScoped<IPacienteService, PacienteService>();
+            services.AddScoped<IAgoraLogAppService, AgoraLogAppService>();
 
         }
         
