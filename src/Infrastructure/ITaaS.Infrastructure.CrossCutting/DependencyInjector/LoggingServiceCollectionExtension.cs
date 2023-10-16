@@ -1,3 +1,4 @@
+using ITaaS.Infrastructure.CrossCutting.Logging;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ITaaS.Infrastructure.CrossCutting.DependencyInjector

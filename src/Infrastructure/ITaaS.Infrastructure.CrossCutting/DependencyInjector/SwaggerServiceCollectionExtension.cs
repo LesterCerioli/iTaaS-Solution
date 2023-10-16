@@ -11,12 +11,12 @@ namespace ITaaS.Infrastructure.CrossCutting.DependencyInjector
                 options.CustomSchemaIds(type => type.ToString());
                 options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo()
                 {
-                    Title = "Aché Pacientes Api DotNet Core version 1.0",
+                    Title = "ITaaS Api DotNet Core version 1.0",
                     Version = "v1",
                     Contact = new Microsoft.OpenApi.Models.OpenApiContact()
                     {
-                        Email = "ache@ache.com.br",
-                        Name = "Aché"
+                        Email = "lesterlucasit@hotmail.com",
+                        Name = "ITaaS"
                     }
                 });
             });

@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ITaaS.Infrastructure.CrossCutting.ConfigurationSettings
