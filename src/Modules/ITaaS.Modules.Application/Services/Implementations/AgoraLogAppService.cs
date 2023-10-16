@@ -1,6 +1,6 @@
 namespace ITaaS.Modules.Application.Services.Implementations
 {
-    public class SampleImplementationService
+    public class AgoraLogAppService
     {
         
     }
